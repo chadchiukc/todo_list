@@ -4,5 +4,5 @@ import 'package:todo_list/pages/home.dart';
 
 routes() => [
       GetPage(name: '/', page: () => Home()),
-      GetPage(name: '/detail/', page: () => Detail())
+      GetPage(name: '/detail/:id', page: () => Detail())
     ];

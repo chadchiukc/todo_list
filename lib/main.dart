@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.light().copyWith(
-        scaffoldBackgroundColor: Colors.blue,
+        scaffoldBackgroundColor: Colors.blue[300],
         textTheme: CustomTextTheme().customTextTheme,
       ),
       initialRoute: "/",

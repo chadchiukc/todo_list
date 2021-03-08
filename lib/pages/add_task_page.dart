@@ -43,7 +43,9 @@ class AddTaskScreen extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                taskCtrl.tasklist.add(Task(name: newTask));
+                if (newTask != null) {
+                  taskCtrl.tasklist.add(Task(name: newTask));
+                }
                 Get.back();
               },
             ),
